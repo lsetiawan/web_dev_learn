@@ -1,0 +1,72 @@
+/*
+    CSE 154 HW1 Stylesheet
+    By Landung Setiawan
+    5/18/2016
+*/
+
+html,body{
+    width:1000px;
+    height:1743px;
+}
+
+/* Page Background */
+.container{
+    background: url(../Recipes/silverware.jpg) repeat;
+}
+
+/* Style for headers */
+.container h1{
+    text-align: center;
+    letter-spacing: 4px;
+    text-decoration: underline;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:#A3A300;
+}
+
+.container h2{
+    letter-spacing: 4px;
+    text-decoration: underline;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:#A3A300;
+}
+
+.bg{
+    background-color: #EFEFEF;
+}
+
+/* Style for unordered list */
+.container ul{
+    list-style-image: url(../Recipes/pie-icon.gif);
+}
+
+/* Underline for tbsp */
+.outer{
+    border-bottom: 1px dotted black;
+    padding-bottom: 2px;
+}
+
+.inner{
+    border-bottom: 1px solid black;
+}
+
+/* Style for body paragraph */
+.container p{
+    font-family: "Droid Serif", "DejaVu Serif", "STIX", serif;
+}
+
+/* Style for Blockquote */
+.container blockquote{
+    background-color:#FFFFA8;
+}
+
+/* Footer Style */
+.container footer{
+    float:left;
+    text-align:center;
+    padding-bottom:12px;
+}
+
+/* Validator Style */
+#validator{
+    clear:left;
+}
